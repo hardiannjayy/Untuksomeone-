@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kejutan Spesial!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HALAMAN 1 -->
+    <div id="halaman-1" class="halaman">
+        <h1>Haloooo sayaanggg</h1>
+        <button id="tombol-buka">Buka Sekarang yaaa ✨</button>
+    </div>
+
+    <!-- HALAMAN 2 -->
+    <div id="halaman-2" class="halaman hidden">
+        <h1>HABEDE ULANG TAHUNNN YALLAAA🎉</h1>
+        <p>SEMOGAA PANJANGGG UMURRRRR WOPYUUU.</p>
+        
+        <div class="slideshow-container">
+            <img src="foto1.jpg" class="slide active" alt="Foto 1">
+            <img src="foto2.jpg" class="slide" alt="Foto 2">
+            <img src="foto3.jpg" class="slide" alt="Foto 3">
+            <img src="foto4.jpg" class="slide" alt="Foto 4">
+            <img src="foto5.jpg" class="slide" alt="Foto 5">
+            <img src="foto6.jpg" class="slide" alt="Foto 6">
+            <img src="foto7.jpg" class="slide" alt="Foto 7"> <!-- Selesai diperbaiki: Titik ditambahkan -->
+            <img src="foto8.jpg" class="slide" alt="Foto 8">
+            <img src="foto9.jpg" class="slide" alt="Foto 9">
+            <img src="foto10.jpg" class="slide" alt="Foto 10">
+        </div>
+        
+        <br>
+        <button id="tombol-ganti-foto">TAP DONGGG 📸</button>
+        <br>
+        <button id="tombol-ke-video">Lihat Video Kejutan ➡️</button>
+    </div> <!-- Selesai diperbaiki: Penutup halaman di posisi yang benar -->
+
+    <!-- HALAMAN 3 -->
+    <div id="halaman-3" class="halaman hidden">
+        <h1>Tonton Ini Ya! 🎬</h1>
+        
+        <video controls class="media-elemen" id="video-ucapan">
+            <source src="videoucapan.mp4" type="video/mp4">
+        </video>
+        
+        <br>
+        <button id="tombol-kembali">⬅️ Kembali Lihat Foto</button>
+    </div>
+
+    <audio id="lagu-latar" loop>
+        <source src="lagu.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
